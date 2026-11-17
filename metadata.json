@@ -1,0 +1,6 @@
+{
+  "name": "Vértice CRM",
+  "description": "CRM inteligente para gestão de funis de vendas, extração de planilhas, relatórios automáticos, integração com WhatsApp Web, automações via API e e-mail marketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,639 @@
+{
+  "leads": [
+    {
+      "id": "lead-101",
+      "name": "Mariana Costa",
+      "company": "Grupo Vanguarda Logística",
+      "email": "mariana.costa@vanguardalog.com.br",
+      "phone": "5511998765432",
+      "value": 48000,
+      "stage": "negociacao",
+      "tagIds": [
+        "tag-vip",
+        "tag-wpp"
+      ],
+      "source": "manual",
+      "owner": "Camila Rocha",
+      "nextFollowUpAt": "2026-11-17T04:26:33.459Z",
+      "createdAt": "2026-11-12T01:26:33.459Z",
+      "updatedAt": "2026-11-17T01:34:53.900Z"
+    },
+    {
+      "id": "lead-102",
+      "name": "Rafael Mendes",
+      "company": "Aliança Indústria Sul",
+      "email": "rafael@aliancasul.ind.br",
+      "phone": "5541987651122",
+      "value": 32500,
+      "stage": "proposta",
+      "tagIds": [
+        "tag-inbound",
+        "tag-urgente",
+        "tag-wpp"
+      ],
+      "source": "api",
+      "owner": "Camila Rocha",
+      "nextFollowUpAt": "2026-11-17T06:26:33.459Z",
+      "createdAt": "2026-11-13T01:26:33.459Z",
+      "updatedAt": "2026-11-16T21:26:33.459Z"
+    },
+    {
+      "id": "lead-103",
+      "name": "Beatriz Oliveira",
+      "company": "Clínica Vitae Saúde",
+      "email": "beatriz@vitaesaude.com.br",
+      "phone": "5521996543321",
+      "value": 19800,
+      "stage": "qualificado",
+      "tagIds": [
+        "tag-wpp"
+      ],
+      "source": "whatsapp",
+      "owner": "Lucas Ferreira",
+      "nextFollowUpAt": "2026-11-17T19:26:33.459Z",
+      "createdAt": "2026-11-14T01:26:33.459Z",
+      "updatedAt": "2026-11-16T19:26:33.459Z"
+    },
+    {
+      "id": "lead-104",
+      "name": "Thiago Albuquerque",
+      "company": "Construtora Horizonte",
+      "email": "thiago@horizontecorp.com.br",
+      "phone": "5531991234567",
+      "value": 64000,
+      "stage": "fechado",
+      "tagIds": [
+        "tag-vip"
+      ],
+      "source": "manual",
+      "owner": "Camila Rocha",
+      "createdAt": "2026-11-07T01:26:33.459Z",
+      "updatedAt": "2026-11-16T11:26:33.459Z"
+    },
+    {
+      "id": "lead-105",
+      "name": "Juliana Peixoto",
+      "company": "Rede Mercado Paulista",
+      "email": "juliana.p@mercadopaulista.com.br",
+      "phone": "5511974458899",
+      "value": 24000,
+      "stage": "prospeccao",
+      "tagIds": [
+        "tag-reengajar",
+        "tag-wpp"
+      ],
+      "source": "planilha",
+      "owner": "Lucas Ferreira",
+      "nextFollowUpAt": "2026-11-18T01:26:33.459Z",
+      "createdAt": "2026-11-15T01:26:33.459Z",
+      "updatedAt": "2026-11-17T01:34:56.736Z"
+    },
+    {
+      "id": "lead-106",
+      "name": "Eduardo Vasconcelos",
+      "company": "AgroTech Cerrado",
+      "email": "eduardo@agrotechcerrado.com.br",
+      "phone": "5562993347788",
+      "value": 41000,
+      "stage": "proposta",
+      "tagIds": [
+        "tag-vip",
+        "tag-inbound",
+        "tag-wpp"
+      ],
+      "source": "email_marketing",
+      "owner": "Camila Rocha",
+      "nextFollowUpAt": "2026-11-17T09:26:33.459Z",
+      "createdAt": "2026-11-13T17:26:33.459Z",
+      "updatedAt": "2026-11-16T22:26:33.459Z"
+    },
+    {
+      "id": "lead-107",
+      "name": "Fernanda Nogueira",
+      "company": "Nogueira & Associados",
+      "email": "fernanda@nogueiraadv.com.br",
+      "phone": "5511982214455",
+      "value": 29500,
+      "stage": "fechado",
+      "tagIds": [
+        "tag-inbound"
+      ],
+      "source": "api",
+      "owner": "Lucas Ferreira",
+      "createdAt": "2026-11-09T03:26:33.459Z",
+      "updatedAt": "2026-11-16T05:26:33.459Z"
+    },
+    {
+      "id": "lead-108",
+      "name": "Gustavo Sampaio",
+      "company": "Sampaio Distribuidora",
+      "email": "gustavo@sampaiodist.com.br",
+      "phone": "5571991126677",
+      "value": 16500,
+      "stage": "prospeccao",
+      "tagIds": [
+        "tag-wpp"
+      ],
+      "source": "planilha",
+      "owner": "Camila Rocha",
+      "nextFollowUpAt": "2026-11-17T13:26:33.459Z",
+      "createdAt": "2026-11-15T19:26:33.459Z",
+      "updatedAt": "2026-11-17T01:34:56.736Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-vip",
+      "name": "VIP Enterprise",
+      "color": "teal"
+    },
+    {
+      "id": "tag-inbound",
+      "name": "Inbound Site",
+      "color": "indigo"
+    },
+    {
+      "id": "tag-urgente",
+      "name": "Urgente",
+      "color": "rose"
+    },
+    {
+      "id": "tag-reengajar",
+      "name": "Reengajamento",
+      "color": "amber"
+    },
+    {
+      "id": "tag-wpp",
+      "name": "WhatsApp Ativo",
+      "color": "emerald"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "evt-2289cdb1",
+      "leadId": "lead-108",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Disparo em fluxo (15s)",
+      "content": "Olá Gustavo, tudo bem? Aqui é da equipe comercial. Vi que a Sampaio Distribuidora demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:34:56.736Z",
+      "author": "WhatsApp Web Conectado"
+    },
+    {
+      "id": "evt-53a26e27",
+      "leadId": "lead-105",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Disparo em fluxo (15s)",
+      "content": "Olá Juliana, tudo bem? Aqui é da equipe comercial. Vi que a Rede Mercado Paulista demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:34:56.736Z",
+      "author": "WhatsApp Web Conectado"
+    },
+    {
+      "id": "evt-c0be5d0e",
+      "leadId": "lead-101",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Mensagem enviada no WhatsApp Web integrado",
+      "content": "Confirmando nossa call de fechamento hoje às 15h!",
+      "createdAt": "2026-11-17T01:34:53.900Z",
+      "author": "WhatsApp Web Conectado"
+    },
+    {
+      "id": "evt-a1f43d2c",
+      "leadId": "lead-101",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Fluxo \"Prospecção Multicanal Boas-vindas\": WhatsApp enviado",
+      "content": "Olá Mariana, tudo bem? Aqui é da equipe comercial. Vi que a Grupo Vanguarda Logística demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-f95bca9b",
+      "leadId": "lead-101",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing (RD Station): Bem-vindo(a) — Como escalar vendas com o Vértice CRM",
+      "content": "Contato sincronizado na lista \"Leads B2B Qualificados 2026\" e disparo agendado.",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "RD Station"
+    },
+    {
+      "id": "evt-dfabe090",
+      "leadId": "lead-102",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Fluxo \"Prospecção Multicanal Boas-vindas\": WhatsApp enviado",
+      "content": "Olá Rafael, tudo bem? Aqui é da equipe comercial. Vi que a Aliança Indústria Sul demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-cc58cb8a",
+      "leadId": "lead-102",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing (RD Station): Bem-vindo(a) — Como escalar vendas com o Vértice CRM",
+      "content": "Contato sincronizado na lista \"Leads B2B Qualificados 2026\" e disparo agendado.",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "RD Station"
+    },
+    {
+      "id": "evt-706c0479",
+      "leadId": "lead-102",
+      "channel": "api",
+      "direction": "system",
+      "summary": "Etiqueta aplicada: WhatsApp Ativo",
+      "content": "Etiqueta adicionada automaticamente pelo fluxo \"Prospecção Multicanal Boas-vindas\".",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-e924fe9a",
+      "leadId": "lead-103",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Fluxo \"Prospecção Multicanal Boas-vindas\": WhatsApp enviado",
+      "content": "Olá Beatriz, tudo bem? Aqui é da equipe comercial. Vi que a Clínica Vitae Saúde demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-835d7bef",
+      "leadId": "lead-103",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing (RD Station): Bem-vindo(a) — Como escalar vendas com o Vértice CRM",
+      "content": "Contato sincronizado na lista \"Leads B2B Qualificados 2026\" e disparo agendado.",
+      "createdAt": "2026-11-17T01:26:50.808Z",
+      "author": "RD Station"
+    },
+    {
+      "id": "evt-2a602bbe",
+      "leadId": "lead-105",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Fluxo \"Prospecção Multicanal Boas-vindas\": WhatsApp enviado",
+      "content": "Olá Juliana, tudo bem? Aqui é da equipe comercial. Vi que a Rede Mercado Paulista demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-3ae2eeb8",
+      "leadId": "lead-105",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing (RD Station): Bem-vindo(a) — Como escalar vendas com o Vértice CRM",
+      "content": "Contato sincronizado na lista \"Leads B2B Qualificados 2026\" e disparo agendado.",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "RD Station"
+    },
+    {
+      "id": "evt-bb751b21",
+      "leadId": "lead-105",
+      "channel": "api",
+      "direction": "system",
+      "summary": "Etiqueta aplicada: WhatsApp Ativo",
+      "content": "Etiqueta adicionada automaticamente pelo fluxo \"Prospecção Multicanal Boas-vindas\".",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-b76509ad",
+      "leadId": "lead-106",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Fluxo \"Prospecção Multicanal Boas-vindas\": WhatsApp enviado",
+      "content": "Olá Eduardo, tudo bem? Aqui é da equipe comercial. Vi que a AgroTech Cerrado demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-c7fa8c00",
+      "leadId": "lead-106",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing (RD Station): Bem-vindo(a) — Como escalar vendas com o Vértice CRM",
+      "content": "Contato sincronizado na lista \"Leads B2B Qualificados 2026\" e disparo agendado.",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "RD Station"
+    },
+    {
+      "id": "evt-6e8d3037",
+      "leadId": "lead-106",
+      "channel": "api",
+      "direction": "system",
+      "summary": "Etiqueta aplicada: WhatsApp Ativo",
+      "content": "Etiqueta adicionada automaticamente pelo fluxo \"Prospecção Multicanal Boas-vindas\".",
+      "createdAt": "2026-11-17T01:26:50.809Z",
+      "author": "Fluxo: Prospecção Multicanal Boas-vindas"
+    },
+    {
+      "id": "evt-aeccfe55",
+      "leadId": "lead-108",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Disparo em fluxo (15s)",
+      "content": "Olá Gustavo, tudo bem? Aqui é da equipe comercial. Vi que a Sampaio Distribuidora demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.390Z",
+      "author": "WhatsApp Web Conectado"
+    },
+    {
+      "id": "evt-05f22932",
+      "leadId": "lead-105",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Disparo em fluxo (15s)",
+      "content": "Olá Juliana, tudo bem? Aqui é da equipe comercial. Vi que a Rede Mercado Paulista demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?",
+      "createdAt": "2026-11-17T01:26:50.390Z",
+      "author": "WhatsApp Web Conectado"
+    },
+    {
+      "id": "evt-1",
+      "leadId": "lead-101",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Envio de proposta via WhatsApp Web",
+      "content": "Olá Mariana, encaminhei os detalhes da proposta comercial de R$ 48.000 para a Grupo Vanguarda Logística. Podemos validar os prazos hoje às 15h?",
+      "createdAt": "2026-11-16T23:26:33.459Z",
+      "author": "Camila Rocha"
+    },
+    {
+      "id": "evt-2",
+      "leadId": "lead-101",
+      "channel": "whatsapp",
+      "direction": "inbound",
+      "summary": "Resposta recebida no WhatsApp",
+      "content": "Oi Camila! Recebi sim, nossa diretoria financeira está revisando a cláusula de implantação até o fim da tarde.",
+      "createdAt": "2026-11-17T00:26:33.459Z",
+      "author": "Mariana Costa"
+    },
+    {
+      "id": "evt-3",
+      "leadId": "lead-102",
+      "channel": "api",
+      "direction": "system",
+      "summary": "Lead capturado via API Webhook",
+      "content": "Contato ingerido automaticamente via POST /api/v1/leads/ingest (origem: Formulário B2B).",
+      "createdAt": "2026-11-13T01:26:33.459Z",
+      "author": "API Vértice"
+    },
+    {
+      "id": "evt-4",
+      "leadId": "lead-102",
+      "channel": "email",
+      "direction": "outbound",
+      "summary": "E-mail Marketing: Case de Sucesso Industrial",
+      "content": "Disparo automático pela sequência RD Station: \"Como indústrias reduziram em 34% o ciclo de vendas\".",
+      "createdAt": "2026-11-15T21:26:33.459Z",
+      "author": "Automação Multicanal"
+    },
+    {
+      "id": "evt-5",
+      "leadId": "lead-103",
+      "channel": "ligacao",
+      "direction": "outbound",
+      "summary": "Reunião de descoberta (18 min)",
+      "content": "Cliente busca centralizar atendimentos de 4 recepcionistas no WhatsApp Web com etiquetas por especialidade.",
+      "createdAt": "2026-11-16T19:26:33.459Z",
+      "author": "Lucas Ferreira"
+    },
+    {
+      "id": "evt-6",
+      "leadId": "lead-104",
+      "channel": "funil",
+      "direction": "system",
+      "summary": "Negócio marcado como Fechado (Ganho)",
+      "content": "Contrato anual assinado no valor de R$ 64.000.",
+      "createdAt": "2026-11-16T11:26:33.459Z",
+      "author": "Camila Rocha"
+    },
+    {
+      "id": "evt-7",
+      "leadId": "lead-106",
+      "channel": "whatsapp",
+      "direction": "outbound",
+      "summary": "Follow-up automático de proposta",
+      "content": "Olá Eduardo, passando para confirmar se conseguiu avaliar a proposta de R$ 41.000 para a AgroTech Cerrado.",
+      "createdAt": "2026-11-16T22:26:33.459Z",
+      "author": "Fluxo Follow-up Proposta"
+    }
+  ],
+  "whatsapp": {
+    "connected": true,
+    "deviceName": "Chrome Web — Estação Comercial",
+    "phoneNumber": "+55 (11) 98842-1090",
+    "batteryLevel": 88,
+    "lastSyncAt": "2026-11-17T01:34:56.736Z",
+    "pairingToken": "vtc-wpp-fa2e0af62efa",
+    "autoReplyEnabled": true,
+    "totalSent": 152,
+    "totalDelivered": 149,
+    "totalReplied": 58
+  },
+  "templates": [
+    {
+      "id": "tpl-boas-vindas",
+      "name": "Boas-vindas Prospecção",
+      "category": "boas_vindas",
+      "body": "Olá {{primeiro_nome}}, tudo bem? Aqui é da equipe comercial. Vi que a {{empresa}} demonstrou interesse em otimizar o atendimento e funil de vendas. Posso te enviar uma apresentação rápida?"
+    },
+    {
+      "id": "tpl-followup",
+      "name": "Follow-up de Proposta",
+      "category": "follow_up",
+      "body": "Oi {{primeiro_nome}}! Passando para saber o que achou da nossa proposta de {{valor}} para a {{empresa}}. Ficou alguma dúvida técnica que eu possa esclarecer hoje?"
+    },
+    {
+      "id": "tpl-reativacao",
+      "name": "Reativação de Base",
+      "category": "reativacao",
+      "body": "Olá {{primeiro_nome}}, retomando nosso contato sobre a operação da {{empresa}}. Liberamos novas automações para WhatsApp Web esta semana — faz sentido conversarmos 10 minutos?"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "wf-inbound",
+      "name": "Prospecção Multicanal Boas-vindas",
+      "description": "Dispara mensagem inicial no WhatsApp Web, envia apresentação por e-mail marketing e etiqueta o contato automaticamente.",
+      "active": true,
+      "trigger": "lead_created",
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "type": "whatsapp_template",
+          "label": "Disparar WhatsApp Web (Boas-vindas)",
+          "templateId": "tpl-boas-vindas"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "type": "email_campaign",
+          "label": "Enviar E-mail: Apresentação Institucional",
+          "emailSubject": "Bem-vindo(a) — Como escalar vendas com o Vértice CRM"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "type": "add_tag",
+          "label": "Aplicar etiqueta WhatsApp Ativo",
+          "targetTagId": "tag-wpp"
+        }
+      ],
+      "executionsCount": 29,
+      "lastExecutedAt": "2026-11-17T01:26:50.809Z"
+    },
+    {
+      "id": "wf-planilha",
+      "name": "Aquecimento de Leads de Planilha",
+      "description": "Para contatos extraídos de planilhas XLSX/CSV: envia abordagem inicial no WhatsApp e agenda qualificação.",
+      "active": true,
+      "trigger": "spreadsheet_import",
+      "steps": [
+        {
+          "id": "s4",
+          "order": 1,
+          "type": "whatsapp_template",
+          "label": "Disparar WhatsApp Web (Reativação)",
+          "templateId": "tpl-reativacao"
+        },
+        {
+          "id": "s5",
+          "order": 2,
+          "type": "wait_days",
+          "label": "Aguardar 2 dias úteis sem resposta",
+          "delayDays": 2
+        },
+        {
+          "id": "s6",
+          "order": 3,
+          "type": "email_campaign",
+          "label": "Sequência E-mail Marketing Follow-up",
+          "emailSubject": "Material exclusivo para a {{empresa}}"
+        }
+      ],
+      "executionsCount": 11,
+      "lastExecutedAt": "2026-11-16T13:26:33.459Z"
+    },
+    {
+      "id": "wf-api",
+      "name": "Atendimento Imediato via API",
+      "description": "Acionado instantaneamente quando um lead entra via webhook POST /api/v1/leads/ingest.",
+      "active": true,
+      "trigger": "api_ingest",
+      "steps": [
+        {
+          "id": "s7",
+          "order": 1,
+          "type": "whatsapp_template",
+          "label": "Disparo imediato WhatsApp Web",
+          "templateId": "tpl-boas-vindas"
+        },
+        {
+          "id": "s8",
+          "order": 2,
+          "type": "move_stage",
+          "label": "Avançar para Qualificado",
+          "targetStage": "qualificado"
+        }
+      ],
+      "executionsCount": 19,
+      "lastExecutedAt": "2026-11-16T20:26:33.459Z"
+    }
+  ],
+  "emailMarketing": {
+    "provider": "RD Station",
+    "connected": true,
+    "audienceListName": "Leads B2B Qualificados 2026",
+    "senderEmail": "comercial@verticecrm.com.br",
+    "syncedContactsCount": 13,
+    "openRate": 42.8,
+    "clickRate": 14.3,
+    "lastSyncAt": "2026-11-17T01:26:50.809Z",
+    "autoSyncTagIds": [
+      "tag-vip",
+      "tag-inbound"
+    ]
+  },
+  "webhooks": [
+    {
+      "id": "wh-1",
+      "name": "Sincronização ERP / Faturamento",
+      "url": "https://hooks.empresa.com.br/crm/deal-won",
+      "event": "deal.won",
+      "active": true,
+      "lastTriggeredAt": "2026-11-16T11:26:33.459Z",
+      "successCount": 12
+    },
+    {
+      "id": "wh-2",
+      "name": "Alerta Slack Diretoria Comercial",
+      "url": "https://hooks.slack.com/services/T000/B000/vertice",
+      "event": "lead.created",
+      "active": true,
+      "lastTriggeredAt": "2026-11-16T23:26:33.459Z",
+      "successCount": 38
+    }
+  ],
+  "apiKey": "vtc_live_98f2a4c7d1e04b63a91c52e8",
+  "dashboardWidgets": [
+    {
+      "id": "funnel_conversion",
+      "title": "Conversão por Etapa do Funil",
+      "visible": true,
+      "span": 1,
+      "order": 1
+    },
+    {
+      "id": "revenue_trend",
+      "title": "Receita Prevista vs. Fechada",
+      "visible": true,
+      "span": 1,
+      "order": 2
+    },
+    {
+      "id": "multichannel_performance",
+      "title": "Desempenho WhatsApp Web & E-mail",
+      "visible": true,
+      "span": 1,
+      "order": 3
+    },
+    {
+      "id": "pending_followups",
+      "title": "Follow-ups Prioritários",
+      "visible": true,
+      "span": 1,
+      "order": 4
+    },
+    {
+      "id": "auto_reports_summary",
+      "title": "Relatórios Automáticos Recentes",
+      "visible": true,
+      "span": 2,
+      "order": 5
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-1",
+      "title": "Relatório Executivo Semanal — Pipeline B2B",
+      "periodLabel": "Últimos 7 dias",
+      "generatedAt": "2026-11-16T01:26:33.459Z",
+      "totalLeads": 8,
+      "pipelineValue": 181800,
+      "wonValue": 93500,
+      "conversionRate": 25,
+      "whatsappSent": 142,
+      "emailOpenRate": 42.8,
+      "scheduleRule": "Automático · Segundas às 08:00"
+    }
+  ],
+  "reportSchedule": {
+    "enabled": true,
+    "frequency": "semanal",
+    "recipientEmail": "diretoria@verticecrm.com.br",
+    "channel": "whatsapp_e_email"
+  }
+}
